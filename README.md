@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Equipment Manager (Leucine)
 
 Simple single-page app (React + Express) to manage equipment with CRUD operations.
@@ -71,3 +72,6 @@ Built as a small demo to satisfy CRUD requirements for equipment management.
 
 
 <!-- REPOSITORY: Add the GitHub repository URL here after pushing (e.g. https://github.com/<your-username>/leucine) -->
+=======
+# leucine
+>>>>>>> e53e76423bad3c6513d2af24d0aed1c782f5dc50
