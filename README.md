@@ -41,18 +41,12 @@ If the client cannot reach the API, create `client/.env` with:
 - PUT    /api/equipment/:id
 - DELETE /api/equipment/:id
 
-## Assumptions (made while building this demo) 💡
+## Assumptions (made while building this demo) 
 - Data storage is a single JSON file at `server/data/equipment.json` for simplicity (no database).
 - No authentication/authorization is required for demo purposes.
 - The app is intended for local development and manual testing (not production-ready).
 - Unique `id` values are used to identify equipment; some operations assume well-formed inputs.
 
-## What I would improve with more time 🚀
-- Replace the file-based store with a proper database (SQLite/Postgres) and add migrations.
-- Add unit and integration tests for server and client (Jest/Testing Library/Cypress).
-- Improve UX: add confirmation dialogs, toast notifications, and form accessibility improvements.
-- Add validation and stronger error reporting on the server (and centralize client-side error handling).
-- Add CI/CD pipeline and GitHub Actions to run tests and linting on push.
 
 
 ## Notes
@@ -66,6 +60,7 @@ If the client cannot reach the API, create `client/.env` with:
 ## Troubleshooting
 - If ports are in use, change the server `PORT` env var or the Vite dev server port.
 
+
 ---
 
 Built as a small demo to satisfy CRUD requirements for equipment management.  
@@ -73,5 +68,4 @@ Built as a small demo to satisfy CRUD requirements for equipment management.
 
 <!-- REPOSITORY: Add the GitHub repository URL here after pushing (e.g. https://github.com/<your-username>/leucine) -->
 =======
-# leucine
->>>>>>> e53e76423bad3c6513d2af24d0aed1c782f5dc50
+
